@@ -6,13 +6,12 @@
 <script>
 export default {
   name: "JobDetailsView",
-  created() {},
-  data() {
-    return {
-      id: this.$route.params.id,
-    };
-  },
-  props: {},
+  props:['id'],
+  // data() {
+  //   return {
+  //     id: this.$route.params.id,
+  //   };
+  // },
   methods: {},
 };
 </script>
